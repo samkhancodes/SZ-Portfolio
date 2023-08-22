@@ -74,6 +74,8 @@
       &:first-child {
         &:after {
           content: 'HOME';
+          font-size: 8px;
+        letter-spacing: 1px;
         }
       }
     }
@@ -81,18 +83,24 @@
     a.about-link {
       &:after {
         content: 'ABOUT';
+        font-size: 8px;
+        letter-spacing: 1px;
       }
     }
 
     a.contact-link {
       &:after {
         content: 'CONTACT';
+        font-size: 8px;
+        letter-spacing: 1px;
       }
     }
 
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';
+        font-size: 8px;
+        letter-spacing: 1px;
       }
     }
 
@@ -163,8 +171,9 @@
 
       a {
         display: flex;
-        justify-content: center;
         align-items: center;
+        width: 80px;
+        margin: auto;
       }
 
       a:after {

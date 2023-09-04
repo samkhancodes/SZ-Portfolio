@@ -52,6 +52,8 @@ const Home = () => {
             <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
+              width={"32px"}
+              height={"55px"}
             />
             <AnimatedLetters
               letterClass={letterClass}
